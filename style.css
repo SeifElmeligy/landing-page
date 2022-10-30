@@ -1,1 +1,106 @@
 
+/*this removes underline from all links*/
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+
+a:active {
+    text-decoration: underline;
+  }
+
+  body {
+    margin: 0 auto;
+    font-family: roboto;
+  }
+
+/*.mainContainer {
+    margin: 0 auto ;
+  }*/
+
+header, .mainTitle {
+background-color: #1f2937;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(assets/Roboto-Regular.ttf);
+}
+
+/* this section is for the nav bar */
+header {
+  display: flex;
+  font-size: 18px;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content:space-around;
+  min-width: 580px;
+}
+.navlinks {
+  display: flex;
+  padding: 5px;
+  gap: 15px;
+}
+/* this section is for the hero and image */
+.mainTitle {
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+  min-width: 580px;
+  padding-bottom: 10px;
+}
+
+.leftHalf {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 10px;
+  flex-shrink:initial;
+}
+
+img {
+ max-height: fit-content;
+ width: auto;
+}
+
+p1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+p2 {
+  color: #f9faf8;
+  font-size: 18px;
+  max-width: 500px;
+}
+/* button customization*/
+button {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #f9faf8;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #1753b4;
+}
+button:active {
+  transform: translateY(4px)
+}
+
