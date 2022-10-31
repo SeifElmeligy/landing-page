@@ -23,9 +23,9 @@ a:active {
     font-family: roboto;
   }
 
-/*.mainContainer {
+.mainContainer {
     margin: 0 auto ;
-  }*/
+  }
 
 header, .mainTitle {
 background-color: #1f2937;
@@ -101,6 +101,43 @@ button:hover{
   background-color: #1753b4;
 }
 button:active {
-  transform: translateY(4px)
+  transform: translateY(2px)
 }
 
+.randomInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 20px
+}
+
+.illustrations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+
+
+  
+}
+
+.ill1, .ill2, .ill3, .ill4 {
+  display: flex;
+  flex-direction: column;
+  width:200px;
+  height:200px;
+  background:white;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.box1, .box2, .box3, .box4 {
+  width:150px;
+  height:200px;
+  border: 3px solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+}
