@@ -1,5 +1,6 @@
 
-/*this removes underline from all links*/
+/* removes underline from all links when not clicked or hovered */
+
 a:link {
     text-decoration: none;
     color: white;
@@ -31,12 +32,19 @@ header, .mainTitle {
 background-color: #1f2937;
 }
 
+/* specific fonts (Roboto) from google fonts*/
+
 @font-face {
   font-family: roboto;
   src: url(assets/Roboto-Regular.ttf);
 }
+@font-face {
+  font-family: roboto-light;
+  src: url(assets/Roboto-Light.ttf);
+}
 
 /* this section is for the nav bar */
+
 header {
   display: flex;
   font-size: 18px;
@@ -52,6 +60,7 @@ header {
   gap: 15px;
 }
 /* this section is for the hero and image */
+
 .mainTitle {
   display: flex; 
   align-items: center;
@@ -85,6 +94,7 @@ p2 {
   max-width: 500px;
 }
 /* button customization*/
+
 button {
   font-weight: bolder;
   font-size: 20px;
@@ -104,6 +114,8 @@ button:active {
   transform: translateY(2px)
 }
 
+/* middle page content and 4 illustrations boxes and text */
+
 .randomInfo {
   display: flex;
   justify-content: center;
@@ -119,9 +131,6 @@ button:active {
   align-items: center;
   margin-left: 15%;
   margin-right: 15%;
-
-
-  
 }
 
 .ill1, .ill2, .ill3, .ill4 {
@@ -140,4 +149,32 @@ button:active {
   border: 3px solid;
   border-color: #3882f6;
   border-radius: 10px;
+}
+
+/* the lower quote section */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+p3 {
+  font-family: roboto-light;
+  font-style: italic;
+  font-size: 36px ;
+  color: #1f2937;
+  max-width: 800px;
+}
+
+p4 {
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: 15%;
+
+
 }

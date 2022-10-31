@@ -1,0 +1,41 @@
+[33mcommit b777eee944ce2e7d36c4e29d6e7fb18fffa8c664[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: seif <seif.elmeligy@hotmail.com>
+Date:   Mon Oct 31 22:47:47 2022 +0200
+
+    finished css for illustrations with text, added extra html containers
+
+[33mcommit d45188f432772b2b677a1c6f59586d852c3c7ba3[m
+Author: seif <seif.elmeligy@hotmail.com>
+Date:   Sun Oct 30 22:55:15 2022 +0200
+
+    added css for header and hero, added more assets and modified html
+
+[33mcommit a8d8a4e2c6730d6cf21dfd7fee0870712f353f06[m
+Author: seif <seif.elmeligy@hotmail.com>
+Date:   Mon Oct 17 16:59:07 2022 +0200
+
+    added assets and structure
+
+[33mcommit b2e8a5b61564bdaf66d86edf78eb048a628a2f67[m
+Author: seif <seif.elmeligy@hotmail.com>
+Date:   Mon Oct 17 14:54:40 2022 +0200
+
+    Added basic HTML structure
+
+[33mcommit b08d9267a0b6a2dbe9ee9f6ac394d180d1f8b3c1[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Seif <75261139+SeifElmeligy@users.noreply.github.com>
+Date:   Sun Oct 16 16:34:07 2022 +0200
+
+    Create style.css
+
+[33mcommit f2176f9c6c1f305a3391d59a0c6d7a0f61823d7c[m
+Author: Seif <75261139+SeifElmeligy@users.noreply.github.com>
+Date:   Sun Oct 16 16:33:50 2022 +0200
+
+    Create index.html
+
+[33mcommit b2480146ca1af073bde0b97ec4dab5db339b2a49[m
+Author: Seif <75261139+SeifElmeligy@users.noreply.github.com>
+Date:   Sun Oct 16 14:46:58 2022 +0200
+
+    Initial commit
