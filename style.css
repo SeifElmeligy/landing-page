@@ -52,12 +52,13 @@ header {
   color: white;
   align-items: center;
   justify-content:space-around;
-  min-width: 580px;
+  min-width: 800px;
 }
 .navlinks {
   display: flex;
   padding: 5px;
-  gap: 15px;
+  gap: 20px;
+  padding: 10px;
 }
 /* this section is for the hero and image */
 
@@ -66,7 +67,9 @@ header {
   align-items: center;
   justify-content: space-around;
   min-width: 580px;
-  padding-bottom: 10px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  min-width: 800px;
 }
 
 .leftHalf {
@@ -129,8 +132,9 @@ button:active {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
+  gap: 10px;
 }
 
 .ill1, .ill2, .ill3, .ill4 {
@@ -157,9 +161,10 @@ button:active {
   display: flex;
   flex-direction: column;
   background-color: #e5e7eb;
-  padding: 10px;
+  padding: 50px;
   align-items: center;
   justify-content: center;
+  min-width: 800px;
 }
 p3 {
   font-family: roboto-light;
@@ -174,7 +179,44 @@ p4 {
   font-weight: bold;
   max-width: 800px;
   margin-left: auto;
-  margin-right: 15%;
+  margin-right: 25%;
+}
 
+/* bottom blue sign up */
 
+.bottomSignUp {
+display: flex;
+justify-content: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.blueRec {
+  display: flex;
+  background-color:#3882f6;
+  width: 800px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.bottombluetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+p5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.whiteborderbutton {
+  border-color: white;
+  border: 2px solid white;
+  align-self: center;
+  margin-left: 20px;
 }
